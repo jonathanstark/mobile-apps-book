@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+    	<title>Radial Gradients</title>
+        <style type="text/css" media="screen">
+            p {
+                background-color: gray;
+                color: white;
+                font-family: "Georgia" serif;
+                height: 4em;
+                padding: .375em;
+                text-shadow: black 1px 1px 0;
+            }
+            p.ex1 {
+                background: -webkit-radial-gradient(white, black);
+            }
+            p.ex2 {
+                background: -webkit-radial-gradient(closest-side, white, black);
+            }
+            p.ex3 {
+                background: -webkit-radial-gradient(closest-side circle, white, black);
+            }
+            p.ex4 {
+                background: -webkit-radial-gradient(right bottom, white, black);
+            }
+            p.ex5 {
+                background: -webkit-radial-gradient(center -8em, white, black);
+            }
+            p.ex6 {
+                background: -webkit-radial-gradient(black, white, black, white, black);
+            }
+            p.ex7 {
+                background: -webkit-radial-gradient(white 30%, black);
+                /* equivalent to: -webkit-radial-gradient(white 0%, white 30%, black 100%);*/
+            }
+            p.ex8 {
+                background: -webkit-radial-gradient(white, black 30%);
+                /* equivalent to: -webkit-radial-gradient(white 0%, black 30%, black 100%);*/
+            }
+            p.ex9 {
+                background: -webkit-radial-gradient(white 30%, black 30%);
+                /* equivalent to: -webkit-radial-gradient(white 0%, white 30%, black 30%, black 100%);*/
+            }
+            p.ex10 {
+                background: -webkit-radial-gradient(black 20%, white 20%, white 40%, black 40%);
+            }
+            p.ex11 {
+                background: -webkit-radial-gradient(right bottom, white, black);
+                background-size: 1em 1em;
+            }
+            p.ex12 {
+                background: -webkit-radial-gradient(black 20%, white 20%, white 40%, black 40%);
+                background-size: 1em 1em;
+            }
+            p.ex13 {
+                background: -webkit-radial-gradient(white, black 10%);
+                background-size: 1em 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="ex1">Radial Gradient Example 1</p>
+        <p class="ex2">Radial Gradient Example 2</p>
+        <p class="ex3">Radial Gradient Example 3</p>
+        <p class="ex4">Radial Gradient Example 4</p>
+        <p class="ex5">Radial Gradient Example 5</p>
+        <p class="ex6">Radial Gradient Example 6</p>
+        <p class="ex7">Radial Gradient Example 7</p>
+        <p class="ex8">Radial Gradient Example 8</p>
+        <p class="ex9">Radial Gradient Example 9</p>
+        <p class="ex10">Radial Gradient Example 10</p>
+        <p class="ex11">Radial Gradient Example 11</p>
+        <p class="ex12">Radial Gradient Example 12</p>
+        <p class="ex13">Radial Gradient Example 13</p>
+    </body>
+</html>
